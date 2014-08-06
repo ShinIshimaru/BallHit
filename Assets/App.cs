@@ -4,13 +4,9 @@ using System.Collections;
 public class App : MonoBehaviour {
 
 	public GameObject ball;
-	bool drag = false;
-	Vector3 downVec;
 
 	// Use this for initialization
 	void Start () {
-
-		//drag = false;
 
 		float y = 5f;
 
@@ -62,7 +58,7 @@ public class App : MonoBehaviour {
 
 			if(Physics.Raycast(ray, out hit)){
 				if(hit.collider.gameObject.name=="MyBall"){
-					//print ("hit:" + hit.collider.gameObject.name);
+
 					Vector3 force = ray.direction;
 					force.y = 0;
 					force.Normalize();
@@ -70,10 +66,8 @@ public class App : MonoBehaviour {
 
 					print ("force:" + force);
 					hit.rigidbody.AddForce(force, ForceMode.VelocityChange);
-					//hit.rigidbody.AddForce(new Vector3(0, 0, 120f), ForceMode.VelocityChange);
 
 				}
-				//print ("hit:" + hit.collider.gameObject.name);
 			}
 		}
 
