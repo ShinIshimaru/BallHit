@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ArcBall.cs">
     <Files>
-      <File FileName="Assets/App.cs" Line="71" Column="31" />
+      <File FileName="Assets/App.cs" Line="10" Column="1" />
       <File FileName="Assets/ArcBall.cs" Line="126" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
